@@ -18,12 +18,16 @@ const Expenses = (props) => {
 
   return (
     <Card className="expenses">
-      <ExpenseFilter
-        selected={filterSelect}
-        onChangeFilter={changeFilterHandler}
-        onClearFilter={clearFilterHandler}
-      />
-      <ExpenseChart expenses={filterItems} />
+      { props.items.length > 0 &&
+        <>
+          <ExpenseFilter
+            selected={filterSelect}
+            onChangeFilter={changeFilterHandler}
+            onClearFilter={clearFilterHandler}
+          />
+          <ExpenseChart expenses={filterItems} />
+        </>
+      }
       <ExpenseList
         items={filterItems}
         onRemoveExpenseData={props.onRemoveExpenseData}

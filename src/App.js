@@ -22,6 +22,7 @@ const App = () => {
   const removeExpenseHandler = (itemId) => {
     const updatedExpenses = expenses.filter((expense) => expense.id !== itemId);
     setExpenses([...updatedExpenses]);
+    setCurrentExpense({});
   };
 
   const editExpenseHandler = (itemId) => {
