@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-expense-item-demo/static/css/main.e8204900.chunk.css",
+    "main.js": "/react-expense-item-demo/static/js/main.82148192.chunk.js",
+    "main.js.map": "/react-expense-item-demo/static/js/main.82148192.chunk.js.map",
+    "runtime-main.js": "/react-expense-item-demo/static/js/runtime-main.41219415.js",
+    "runtime-main.js.map": "/react-expense-item-demo/static/js/runtime-main.41219415.js.map",
+    "static/js/2.9f469d41.chunk.js": "/react-expense-item-demo/static/js/2.9f469d41.chunk.js",
+    "static/js/2.9f469d41.chunk.js.map": "/react-expense-item-demo/static/js/2.9f469d41.chunk.js.map",
+    "index.html": "/react-expense-item-demo/index.html",
+    "static/css/main.e8204900.chunk.css.map": "/react-expense-item-demo/static/css/main.e8204900.chunk.css.map",
+    "static/js/2.9f469d41.chunk.js.LICENSE.txt": "/react-expense-item-demo/static/js/2.9f469d41.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.41219415.js",
+    "static/js/2.9f469d41.chunk.js",
+    "static/css/main.e8204900.chunk.css",
+    "static/js/main.82148192.chunk.js"
+  ]
+}
